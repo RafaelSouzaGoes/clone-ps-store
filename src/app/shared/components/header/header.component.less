@@ -1,0 +1,120 @@
+@nav_backgroud_color: #ffffff;
+@button_color: #0070cc;
+@font_size_text: 14px;
+
+.header__logo__sony {
+  background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 36px;
+
+  a {
+    text-decoration: none;
+    margin: 10px;
+
+    img {
+      height: 15px;
+    }
+  }
+}
+
+.nav__container {
+  height: 50px;
+  background-color: @nav_backgroud_color;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 30px;
+
+  .nav__logo__options {
+    display: flex;
+    flex-direction: row;
+
+    .header__logo__ps {
+      max-height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 40px;
+        width: 40px;
+      }
+    }
+    .header__menu__nav {
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+
+      li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 20px 0px 5px;
+        font-size: 0.8125rem;
+        line-height: 21px;
+        white-space: nowrap;
+        width: auto;
+
+        ul {
+          margin: 5px;
+
+          button {
+            border: none;
+            cursor: pointer;
+            background-color: @nav_backgroud_color;
+          }
+        }
+      }
+    }
+  }
+
+  .btn__iniciar__pesquisa {
+    display: flex;
+    align-items: center;
+    button {
+      background-color: @button_color;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-weight: 500;
+      font-size: @font_size_text;
+      border: none;
+      cursor: pointer;
+
+      padding: 0px 10px;
+      height: calc(8px + 1rem);
+      margin: 5px;
+    }
+  }
+}
+.nav__ps-store__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .play-station-store-logo {
+    img {
+      height: 110px;
+    }
+  }
+
+  .menu__ps-store__container {
+
+    li {
+      display: flex;
+      flex-direction: row;
+
+      button {
+        margin: 10px 10px;
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: @font_size_text;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

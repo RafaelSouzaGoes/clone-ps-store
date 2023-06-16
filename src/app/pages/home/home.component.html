@@ -1,0 +1,25 @@
+<div class="section_background-one">
+  <div class="image-section">
+    <img
+      src="../../../assets/images-base/1f0ce755-8bef-464d-b932-09f0ef006489.png"
+      alt=""
+      sizes=""
+      srcset=""
+    />
+  </div>
+</div>
+
+<section>
+
+
+  <div class="container__jogos">
+    <mat-grid-list cols="4" rowHeight="500px" class="grid-container">
+      <mat-grid-tile *ngFor="let produto of produtos">
+        <app-cards [produtos]="produto"></app-cards>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+
+</section>
+
+<div class="section_background-two"></div>
