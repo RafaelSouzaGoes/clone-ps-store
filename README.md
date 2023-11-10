@@ -1,24 +1,38 @@
-# ClonePsStore
+# Clone da PlayStation Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+## Descrição
 
-## Development server
+Projeto de clone da página da PlayStation Store, desenvolvido em Angular e Material UI para proporcionar uma experiência semelhante ao site oficial da PlayStation.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `docs/` directory.
+This project is a clone of the PlayStation Store page, created using Angular and Material UI to provide a user experience similar to the official PlayStation website.
 
 
-## Running end-to-end tests
+You can access the live version of the website [here](https://clonepsstore.netlify.app/).
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Tecnologias Utilizadas
 
-## Further help
+- Angular
+- Material UI
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Pré-requisitos
+
+Antes de começar, certifique-se de ter o Angular instalado. Se não tiver, você pode instalar executando o seguinte comando:
+
+
+npm install -g @angular/cli
+
+## Instalação
+
+Clone o repositório:
+
+git clone https://github.com/RafaelSouzaGoes/clone-ps-store.git
+
+Navegue até o diretório do projeto:
+
+cd clone-ps-store
+
+### Angular
+
+1. Run the `npm install` command to install the front-end dependencies.
+2. Run the `ng serve` command to start the Angular development server.
+3. Open your web browser and go to `http://localhost:4200/` to see the application running.
